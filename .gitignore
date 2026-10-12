@@ -1,0 +1,29 @@
+# Node & dependencies
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native builds & caches
+*.orig.*
+[A-Z0-9]*.apk
+[A-Z0-9]*.aab
+android/.gradle
+android/app/build
+ios/build
+
+# Keystore & secrets
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS files
+.DS_Store
+Thumbs.db
